@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.logo {
+  width: 150px;
+  border-radius: 20px;
+}
+
+.script-img {
+  width: 250px;
+  margin: 20px 0;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin-top: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+  text-align: left;
+  background: #f9f9f9;
+}
+
+pre {
+  background: #272822;
+  color: #f8f8f2;
+  padding: 10px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.webview {
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+}
